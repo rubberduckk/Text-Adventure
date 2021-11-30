@@ -6,22 +6,6 @@ import o1.adventure.Adventure
 import o1.gui.O1SwingDefaults
 
 
-////////////////// NOTE TO STUDENTS //////////////////////////
-// For the purposes of our course, it's not necessary    
-// that you understand or even look at the code in this file.
-//////////////////////////////////////////////////////////////
-
-
-/** The singleton object `AdventureGUI` represents a GUI-based version of the Adventure 
-  * game application. The object serves as a possible entry point for the game, and can 
-  * be run to start up a user interface that operates in a separate window. The GUI reads 
-  * its input from a text field and displays information about the game world in uneditable 
-  * text areas.
-  *
-  * '''NOTE TO STUDENTS: In this course, you don't need to understand how this object works 
-  * or can be used, apart from the fact that you can use this file to start the program.'''
-  *
-  * @see [[AdventureTextUI]] */
 object AdventureGUI extends SimpleSwingApplication with O1SwingDefaults {
 
     def top = new MainFrame {
