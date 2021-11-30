@@ -3,10 +3,6 @@ package o1.adventure.ui
 import o1.adventure._
 import scala.io.StdIn._
 
-/** The singleton object `AdventureTextUI` represents a fully text-based version of the
-  * Adventure game application. The object serves as a possible entry point for the game, 
-  * and can be run to start up a user interface that operates in the text console. 
-  * @see [[AdventureGUI]] */
 object AdventureTextUI extends App {
   
     private val game = new Adventure
