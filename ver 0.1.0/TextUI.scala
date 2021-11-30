@@ -40,7 +40,6 @@ object AdventureTextUI extends App {
             println(turnReport) 
         }
     }
-
 }
 
 
